@@ -1,1 +1,1 @@
-Run 'docker-compose up' to start the application.  It can be accessed on localhost:8080
+Run `docker-compose up` to start the application.  It can be accessed on localhost:8080
