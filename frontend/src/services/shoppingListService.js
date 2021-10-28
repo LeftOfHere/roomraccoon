@@ -15,7 +15,7 @@ export const addItem = async (item) => {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(item)
-  }).then(res => res.json()).then(data => console.log('data', data));
+  }).then(res => res);
 }
 
 export const removeItem = async (id) => {
@@ -31,5 +31,5 @@ export const editItem = async (item) => {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(item)
-  }).then(res => res.json());
+  }).then(res => res);
 }
